@@ -11,16 +11,16 @@ if(!empty($_SESSION["username"]))
 
 ?> 
 <td class="foot"> 
-<a href="statuses_home_timeline.php" class="block">ホーム</a> 
+<a href="statuses_home_timeline.php" class="block">Timeline</a> 
 </td> 
 <td class="foot"> 
-<a href="statuses_mentions_timeline.php" class="block">メンション</a> 
+<a href="statuses_mentions_timeline.php" class="block">Mentions</a> 
 </td> 
 <td class="foot"> 
-<a href="lists_list.php?username=<?= $username ?>" class="block">リスト</a> 
+<a href="lists_list.php?username=<?= $username ?>" class="block">Listes</a> 
 </td> 
 <td class="foot"> 
-<a href="statuses_update.php" class="block">ツイート</a> 
+<a href="statuses_update.php" class="block">Nouveau tweet</a> 
 </div> 
 <?php 
 
@@ -32,7 +32,7 @@ else
 
 ?> 
 <td class="foot"> 
-<a href="login.php" class="block">ログイン</a> 
+<a href="login.php" class="block">Se connecter</a> 
 </td> 
 <?php 
 
